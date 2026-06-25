@@ -1,16 +1,33 @@
-## Hi there 👋
+# 👋 Hi, I'm Geda Taye
 
-<!--
-**geda21/geda21** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🚀 **22-year-old self-taught developer from Ethiopia 🇪🇹**
 
-Here are some ideas to get you started:
+I build products that solve real problems — starting with my own.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🔥 What I'm Building
+
+### [NONOX](https://github.com/geda21/nonox-android)
+A focus app that FORCES you to focus.
+- 🔒 24-Hour App Lock
+- 📱 Complete Phone Lockdown
+- 🎯 Single-App Focus
+- 📊 Discipline Tracking
+
+Built on a 6-inch phone. 8,500+ lines of Java. 420+ hours.
+
+## 🛠️ Tech Stack
+- Java | Kotlin | Python
+- Android Native | AIDE (on mobile)
+- GitHub | DeepSeek | Gemini
+
+## 📊 GitHub Stats
+![Geda's GitHub stats](https://github-readme-stats.vercel.app/api?username=geda21&show_icons=true&theme=dark)
+
+## 📫 Connect With Me
+- [LinkedIn](https://www.linkedin.com/in/geda-taye-a60b403ba)
+- [Twitter/X](https://x.com/GedaTaye41598)
+- [Telegram](https://t.me/nonoxapp)
+
+---
+
+*"Proving that talent exists everywhere."*
