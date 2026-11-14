@@ -72,7 +72,7 @@ The older work matters because **I implemented and tested the larger experiment 
 
 The eight states above correspond to archived captures from **May 25–30, 2026**: (1) glowing cyan eyes, (2) minimal purple face, (3) friendly blue-eyed robot, (4) more intense blue-eyed expression, (5) emergency-activated state, (6) safety confirmation attempt, (7) yellow-eyed attention state and (8) yellow-eyed listening/status interface.
 
-**Evidence policy:** This infographic contains *illustrated redrawings* of the original faces. It is not a substitute for the archived Android screenshots. [Get the original robot-evolution image set](https://github.com/geda21/geda21/tree/main/assets/robot-evolution) once the original JPGs are uploaded.
+**Evidence policy:** This infographic contains *illustrated redrawings* of the original faces. It is not a substitute for the archived Android screenshots. The original Android JPG screenshots are prepared separately for upload to `assets/robot-evolution/`.
 
 ### May 30, 2026 · The guardian had different faces
 
