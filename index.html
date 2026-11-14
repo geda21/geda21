@@ -5,7 +5,72 @@
 <meta name="description" content="The real engineering journey of Geda Taye: PINAXA Guardian prototypes, Android development experiments, NONOX on Google Play, JLab, AgentBridge and JABAA Shop. Built smartphone-first in Ethiopia."/>
 <style>
 :root{color-scheme:dark;--bg:#080d18;--panel:#101a29;--line:#283750;--text:#f3f6fa;--muted:#b0bfd0;--cyan:#4ae8ec;--purple:#aa85ff;--green:#65dfae;--red:#fe6c7f}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse 80% 30% at 80% 2%,#233c68 0,transparent 65%),var(--bg);font:16px/1.65 system-ui,-apple-system,Segoe UI,sans-serif;color:var(--text)}a{color:inherit}a:hover{color:var(--cyan)}header{position:sticky;top:0;z-index:10;background:#080d18e8;border-bottom:1px solid #ffffff19;backdrop-filter:blur(12px)}.top{max-width:1200px;margin:auto;padding:12px 24px;display:flex;justify-content:space-between;gap:18px;align-items:center}.brand{font-weight:850;letter-spacing:.04em;text-decoration:none}nav{display:flex;gap:16px;font-size:13px;font-weight:650}nav a{text-decoration:none;color:var(--muted)}main{max-width:1200px;padding:0 24px 110px;margin:auto}section{scroll-margin-top:100px;padding:70px 0;border-bottom:1px solid #ffffff18}.hero{display:grid;grid-template-columns:1.45fr .65fr;align-items:center;gap:48px;min-height:610px}.eyebrow{text-transform:uppercase;letter-spacing:.18em;color:var(--cyan);font:700 12px/1.5 ui-monospace,monospace}.hero h1{font-size:clamp(42px,6vw,80px);line-height:1.04;letter-spacing:-.065em;margin:16px 0 22px}.accent{background:linear-gradient(120deg,#6af2e7,#aa87ff);background-clip:text;color:transparent}.lead{font-size:clamp(17px,2vw,22px);color:#d2ddec;max-width:780px}.portrait{width:min(100%,340px);border-radius:50%;border:3px solid #4acbe555;box-shadow:0 0 0 22px #5ceefa08,0 0 100px #5ceefa18}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0}.btn{display:inline-block;border:1px solid #7a8cb2;padding:12px 18px;border-radius:100px;text-decoration:none;font-weight:750;font-size:14px}.btn.primary{background:#4ae8ec;color:#06111f;border-color:#4ae8ec}.proof{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:30px}.proof article,.card{border:1px solid var(--line);border-radius:20px;padding:23px;background:linear-gradient(140deg,#111d30,#0c1320)}.proof strong{display:block;color:#fff;font-size:18px}.proof span{display:block;color:var(--muted);font-size:13px}.kicker{font-size:13px;color:var(--cyan);font-weight:800;letter-spacing:.13em;text-transform:uppercase}h2{font-size:clamp(29px,4vw,48px);letter-spacing:-.045em;line-height:1.15;margin:9px 0 18px}h3{margin:10px 0;font-size:22px;letter-spacing:-.025em}.muted,p{color:#c8d3e0}.sectionintro{max-width:800px;font-size:18px}.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:30px 0}.phase{padding:22px;border:1px solid var(--line);border-radius:15px;background:#0f1827}.phase small{color:#78e6e8;letter-spacing:.1em}.phase h3{font-size:18px}.split{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}.media{width:100%;height:auto;border-radius:16px;border:1px solid #56668155;background:#172435;display:block}.story-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:15px;margin:22px 0}.story-grid figure{margin:0}.story-grid figcaption{color:var(--muted);font-size:12px;margin-top:8px}.card p{margin-bottom:6px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:26px 0}.cards img{width:100%;aspect-ratio:16/9;object-fit:contain;border-radius:13px;background:#0a111d}.card a{color:#67e6eb;font-weight:750}.quote{border-left:3px solid var(--cyan);padding:16px 24px;margin:30px 0;font-size:clamp(20px,3vw,29px);color:#fff;letter-spacing:-.03em;background:#55e2ea0a}.note{font-size:13px;color:#9daec2}.label{display:inline-block;margin:8px 7px 0 0;background:#253349;color:#dce5f3;border:1px solid #445779;border-radius:100px;padding:5px 11px;font-size:12px}.footer{padding-top:45px;color:var(--muted);font-size:14px}strong{color:#fff}@media(max-width:840px){nav{gap:10px;flex-wrap:wrap}.hero,.split{grid-template-columns:1fr}.hero{padding:65px 0;min-height:unset}.portrait{max-width:240px}.proof,.cards{grid-template-columns:1fr 1fr}.timeline{grid-template-columns:1fr 1fr}}@media(max-width:530px){.top{flex-wrap:wrap;padding:10px 16px}main{padding:0 16px 50px}nav{font-size:11px;gap:9px}.hero h1{font-size:48px}.proof,.cards,.timeline,.story-grid{grid-template-columns:1fr}section{padding:52px 0}.actions{gap:8px}}
-.story-step{margin:42px 0;padding:30px;border:1px solid #2b3f59;border-radius:22px;background:linear-gradient(140deg,#0f1b2c,#0b111e)}.stepnum{font:800 12px/1.6 ui-monospace,monospace;letter-spacing:.13em;color:#64e4e6;text-transform:uppercase}.story-step h3{font-size:clamp(22px,3vw,31px);line-height:1.24;max-width:800px}.story-step p{max-width:800px}.story-step .story-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:15px}.story-step .story-grid img{aspect-ratio:3/4;object-fit:cover;object-position:center}.story-step .split .story-grid{grid-template-columns:1fr 1fr}.story-step figure{margin:0}.story-step figcaption{font-size:12px;color:#aebed0;margin-top:8px}code{font-family:ui-monospace,SFMono-Regular,monospace;background:#27364b;padding:2px 5px;border-radius:5px;color:#b6f5f4}@media(max-width:760px){.story-step{padding:18px}.story-step .story-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.cards{grid-template-columns:1fr}.story-step .split .story-grid{grid-template-columns:1fr 1fr}}@media(max-width:440px){.story-step .split .story-grid{grid-template-columns:1fr 1fr}}</style></head>
+.story-step{margin:42px 0;padding:30px;border:1px solid #2b3f59;border-radius:22px;background:linear-gradient(140deg,#0f1b2c,#0b111e)}.stepnum{font:800 12px/1.6 ui-monospace,monospace;letter-spacing:.13em;color:#64e4e6;text-transform:uppercase}.story-step h3{font-size:clamp(22px,3vw,31px);line-height:1.24;max-width:800px}.story-step p{max-width:800px}.story-step .story-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:15px}.story-step .story-grid img{aspect-ratio:3/4;object-fit:cover;object-position:center}.story-step .split .story-grid{grid-template-columns:1fr 1fr}.story-step figure{margin:0}.story-step figcaption{font-size:12px;color:#aebed0;margin-top:8px}code{font-family:ui-monospace,SFMono-Regular,monospace;background:#27364b;padding:2px 5px;border-radius:5px;color:#b6f5f4}@media(max-width:760px){.story-step{padding:18px}.story-step .story-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.cards{grid-template-columns:1fr}.story-step .split .story-grid{grid-template-columns:1fr 1fr}}@media(max-width:440px){.story-step .split .story-grid{grid-template-columns:1fr 1fr}}
+/* Responsive layout hardening: phone-first, tablet and widescreen */
+html,body{max-width:100%;overflow-x:clip}
+img,svg,video{max-width:100%}
+.hero>*,.split>*,.story-grid>*,.cards>*,.timeline>*,.proof>*,.story-step{min-width:0}
+.hero h1{overflow-wrap:normal;text-wrap:balance}
+.kicker,.eyebrow,.stepnum{overflow-wrap:anywhere}
+.card,.phase,.story-step{overflow-wrap:break-word}
+.story-step .story-grid img{aspect-ratio:3/4;object-fit:contain;object-position:center;background:#080d18}
+.story-step .story-grid figure{min-width:0}
+.story-step .story-grid figcaption{overflow-wrap:anywhere}
+.top nav{min-width:0}
+.hero .portrait{aspect-ratio:1/1;object-fit:cover;justify-self:center}
+a:focus-visible{outline:3px solid var(--cyan);outline-offset:4px}
+@media (max-width:1024px){
+  .hero{gap:30px;min-height:520px}
+  .top{padding-inline:20px}
+  .story-step .story-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media (max-width:840px){
+  .hero{min-height:unset}
+  .hero .portrait{justify-self:start}
+  .split{gap:22px}
+  .story-step .split .story-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:600px){
+  header .top{display:flex;align-items:flex-start;flex-direction:column;gap:8px;padding:12px 16px}
+  header .brand{font-size:15px}
+  header nav{display:flex;flex-wrap:nowrap;width:100%;max-width:100%;gap:18px;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:none;white-space:nowrap;padding-bottom:7px}
+  header nav::-webkit-scrollbar{display:none}
+  header nav a{flex:0 0 auto;font-size:13px;min-height:32px;display:inline-flex;align-items:center}
+  main{padding:0 16px 60px}
+  section{scroll-margin-top:108px;padding:50px 0}
+  .hero{padding:48px 0 38px;gap:22px}
+  .hero h1{font-size:clamp(34px,9vw,49px);letter-spacing:-.052em;line-height:1.09}
+  .lead{font-size:17px;line-height:1.6}
+  .hero .portrait{max-width:174px}
+  .eyebrow{font-size:11px;letter-spacing:.1em}
+  h2{font-size:clamp(28px,8vw,40px);line-height:1.18}
+  h3{font-size:21px}
+  .sectionintro{font-size:16px}
+  .proof,.cards,.timeline{grid-template-columns:1fr}
+  .proof{gap:9px;margin-top:10px}
+  .proof article{padding:15px 18px}
+  .story-step{padding:18px;margin:25px 0;border-radius:16px}
+  .story-step .story-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}
+  .story-step .split .story-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .story-step .story-grid img{aspect-ratio:3/4;object-fit:contain}
+  .story-step figcaption{font-size:11px}
+  .actions{gap:10px}
+  .btn{max-width:100%;overflow-wrap:anywhere;text-align:center;padding:11px 14px;font-size:13px}
+  .card{padding:20px}
+}
+@media (max-width:360px){
+  main{padding-inline:13px}
+  .hero h1{font-size:clamp(31px,9vw,36px)}
+  .story-step{padding:13px}
+  .story-step .story-grid{gap:7px}
+  header nav{gap:14px}
+  .label{font-size:11px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
+}
+</style></head>
 <body>
 <header><div class="top"><a class="brand" href="#top">GEDA TAYE <span style="color:#5eebed">/ STORY</span></a><nav><a href="#origin">Origin</a><a href="#pinaxa">PINAXA</a><a href="#nonox">NONOX</a><a href="#projects">Projects</a><a href="#contact">Hire Me</a></nav></div></header>
 <main>
