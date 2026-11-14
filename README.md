@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="108" src="https://avatars.githubusercontent.com/u/271062331?v=4" alt="Geda Taye GitHub profile portrait" />
+<img width="108" src="assets/geda-founder-portrait.jpg" alt="Geda Taye GitHub profile portrait" />
 
 # GEDA TAYE — BUILT ON A PHONE.
 ### Self-taught Android & Web Developer · Independent Product Builder · Ethiopia 🇪🇹
@@ -65,6 +65,18 @@ The older work matters because **I implemented and tested the larger experiment 
 </div>
 
 **[Read the original PINAXA engineering journey →](https://github.com/geda21/PINAXA/blob/main/EVOLUTION.md)**
+
+### May 30, 2026 · The guardian had different faces
+
+I tested an **ATTENTION** expression with yellow eyes and a separate listening/status interface before simplifying the later product. These are my original Android captures, not recreated marketing illustrations.
+
+<p align="center">
+  <img src="assets/pinaxa-guardian-attention-may30.jpg" width="42%" alt="Actual May 30 PINAXA Guardian yellow-eye ATTENTION expression" />
+  <img src="assets/pinaxa-guardian-listening-may30.jpg" width="42%" alt="Actual May 30 PINAXA Guardian screen showing Listening, Threat SAFE and command history" />
+</p>
+
+*These are historic UI experiments, not independently validated autonomous-threat detection.*
+
 
 ### What the actual PINAXA app shows
 
