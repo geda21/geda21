@@ -66,6 +66,14 @@ The older work matters because **I implemented and tested the larger experiment 
 
 **[Read the original PINAXA engineering journey →](https://github.com/geda21/PINAXA/blob/main/EVOLUTION.md)**
 
+### The full PINAXA robot-face evolution — eight versions
+
+<img src="assets/pinaxa-robot-face-evolution-illustrated.svg" width="100%" alt="Illustrated evolution of eight experimental PINAXA Guardian face states — cyan scanner eyes, purple minimal robot, friendly blue, intense blue, emergency, safety check-in, yellow attention, and yellow listening" />
+
+The eight states above correspond to archived captures from **May 25–30, 2026**: (1) glowing cyan eyes, (2) minimal purple face, (3) friendly blue-eyed robot, (4) more intense blue-eyed expression, (5) emergency-activated state, (6) safety confirmation attempt, (7) yellow-eyed attention state and (8) yellow-eyed listening/status interface.
+
+**Evidence policy:** This infographic contains *illustrated redrawings* of the original faces. It is not a substitute for the archived Android screenshots. [Get the original robot-evolution image set](https://github.com/geda21/geda21/tree/main/assets/robot-evolution) once the original JPGs are uploaded.
+
 ### May 30, 2026 · The guardian had different faces
 
 I tested an **ATTENTION** expression with yellow eyes and a separate listening/status interface before simplifying the later product. These are my original Android captures, not recreated marketing illustrations.
