@@ -1,195 +1,184 @@
 <div align="center">
 
-<img width="108" src="assets/geda-founder-portrait.jpg" alt="Geda Taye GitHub profile portrait" />
+<img src="assets/geda-founder-portrait.jpg" width="154" alt="Geda Taye — portrait" />
 
-# GEDA TAYE — BUILT ON A PHONE.
-### Self-taught Android & Web Developer · Independent Product Builder · Ethiopia 🇪🇹
+# I built my first serious Android systems on a phone.
 
-**No laptop. No development team. A smartphone, thousands of iterations, and working software.**
+### I'm Geda Taye. A self-taught Android and web developer from Ethiopia.
 
-**[Explore my visual story portfolio →](index.html)** · **[PINAXA evolution →](https://github.com/geda21/PINAXA/blob/main/EVOLUTION.md)**
+**This is not a gallery of perfect projects. It's the story of what happened while I tried to make things work.**
 
-[![NONOX · Google Play](https://img.shields.io/badge/NONOX-Live_on_Google_Play-34A853?style=for-the-badge&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.nonox.app)
-[![JABAA Shop](https://img.shields.io/badge/JABAA-Shop_Live-167B5B?style=for-the-badge)](https://jabashop.store)
-[![LinkedIn](https://img.shields.io/badge/Let's_Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/geda-taye-a60b403ba)
+[**Read the visual story**](index.html) · [**See my actual projects**](#the-projects-i-built) · [**Contact me**](#lets-build-something)
 
-</div>
-
----
-
-## The story behind the repositories
-
-I'm **Geda Taye**, a self-taught developer building Android and web products from Ethiopia.
-
-My education has not been a collection of tutorials followed by a collection of certificates. It has been writing Java on an Android phone, debugging manifest errors, wrestling with library compatibility, testing features on the same device I use to develop, and making product decisions when ambitious ideas turned out to be difficult to maintain.
-
-The projects below aren't interchangeable demos. They tell a story of **experimentation → implementation → failure → redesign → release**.
-
-> **The early screenshots are as important to my story as the polished ones.** You can see where I struggled, what I tried, and what eventually shipped.
-
-### A timeline of practical engineering
-
-| Period | What I was doing | What I learned |
-|:--|:--|:--|
-| **May 2026** | Iterating on **PINAXA Guardian**, a much broader Android personal-security and AI-assistant prototype | Java build systems, Android permissions, camera pipelines, voice interactions, model integration, debugging |
-| **Late May 2026** | Designing and rebuilding PINAXA's expressive robot faces, attention/emergency states, local command histories and camera-based detection interfaces | Stateful UI, custom views, voice input, sensor/camera experimentation |
-| **Later in 2026** | Simplifying the PINAXA concept into a more focused personal safety app | Product scope, reliability, privacy-sensitive flows and practical usability |
-| **September 2026** | Experimenting with **AgentBridge** and instruction-driven phone automation, including Fiverr navigation and task progress logs | Android interaction workflows, state tracking, automation and failure handling |
-| **October 2026** | Publishing **NONOX** to Google Play | Native Android lifecycle, accessibility/device-admin constraints, release and distribution |
-| **2026 and ongoing** | Building **JLab**, **JABAA Shop**, and **EthioDate** | Kotlin/Compose, offline data, Supabase, commerce, authentication and responsive web products |
-
-*Dates are anchored in my archived screenshots and development records; not every older intermediate build still exists.*
-
----
-
-## Chapter 01 · PINAXA — when I tried to build a guardian
-
-**This story started before NONOX.**
-
-My original PINAXA idea was not simply a red panic button. I worked on an Android security guardian with camera processing, voice commands, contextual responses, expressive robot faces, emergency states and offline-first ambitions.
-
-I produced multiple source archives and app builds. Along the way I encountered Android manifest errors, missing ML Kit dependencies and model-download failures. I also got tangible interfaces running: custom animated faces, camera previews, command logs and emergency activation workflows.
-
-I repeatedly changed the guardian's face — glowing eyes, minimal shapes, worried/attentive expressions and stronger red-alert states — searching for a character that made the system easier to understand.
-
-**Then I made a hard product choice:** reduce the ambition. The later PINAXA focuses on intentional panic activation, duress configuration, emergency contacts, an event timeline and evidence access.
-
-The older work matters because **I implemented and tested the larger experiment before choosing to simplify it**.
-
-<div align="center">
-
-[<img src="https://raw.githubusercontent.com/geda21/PINAXA/main/assets/pinaxa-hero.png" alt="Current PINAXA: actual panic screen, emergency timeline and protected evidence UI" width="100%"/>](https://github.com/geda21/PINAXA)
-
-<sub>Current product — the streamlined Android safety experience.</sub>
+[![NONOX on Google Play](https://img.shields.io/badge/NONOX-Google_Play-34A853?style=for-the-badge&logo=googleplay)](https://play.google.com/store/apps/details?id=com.nonox.app)
+[![JABAA Shop](https://img.shields.io/badge/JABAA-Shop-17835C?style=for-the-badge)](https://jabashop.store)
+[![LinkedIn](https://img.shields.io/badge/Work_with_me-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/geda-taye-a60b403ba)
 
 </div>
 
-**[Read the original PINAXA engineering journey →](https://github.com/geda21/PINAXA/blob/main/EVOLUTION.md)**
+---
 
-### PINAXA Guardian — eight actual robot versions
+## Before I had a product to show, I had problems to solve.
 
-These are **original historical Android screenshots**, not illustrations. I experimented with different robot faces, emotional states, command interfaces and emergency behavior before simplifying PINAXA.
+I didn't have a laptop. I wasn't sitting in an office with a development team.
 
-<table><tr><td align="center" width="25%"><img src="robot-evolution/01-neon-cyan-eyes.jpg" width="175" alt="Glowing cyan scanner eyes original screenshot"/><br/><sub>01 · Glowing cyan scanner eyes</sub></td><td align="center" width="25%"><img src="robot-evolution/02-purple-minimal-robot.jpg" width="175" alt="Minimal purple face original screenshot"/><br/><sub>02 · Minimal purple face</sub></td><td align="center" width="25%"><img src="robot-evolution/03-blue-friendly-robot.jpg" width="175" alt="Friendly blue-eyed robot original screenshot"/><br/><sub>03 · Friendly blue-eyed robot</sub></td><td align="center" width="25%"><img src="robot-evolution/04-blue-alert-robot.jpg" width="175" alt="Intense blue-eyed expression original screenshot"/><br/><sub>04 · Intense blue-eyed expression</sub></td></tr><tr><td align="center" width="25%"><img src="robot-evolution/05-emergency-activated.jpg" width="175" alt="Emergency activated original screenshot"/><br/><sub>05 · Emergency activated</sub></td><td align="center" width="25%"><img src="robot-evolution/06-safety-checkin.jpg" width="175" alt="Safety check-in prompt original screenshot"/><br/><sub>06 · Safety check-in prompt</sub></td><td align="center" width="25%"><img src="robot-evolution/07-yellow-attention.jpg" width="175" alt="Yellow attention state original screenshot"/><br/><sub>07 · Yellow attention state</sub></td><td align="center" width="25%"><img src="robot-evolution/08-yellow-listening.jpg" width="175" alt="Yellow listening state original screenshot"/><br/><sub>08 · Yellow listening state</sub></td></tr></table>
+I had an **Android phone**, a code editor, a lot of questions, and an idea that felt bigger than the device in my hands.
 
-**More original engineering evidence:**
+I taught myself by trying things I couldn't yet explain perfectly. I wrote code, built the APK, installed it, pressed buttons, watched the behavior, and went back to the code when it failed. Some nights I would fix one error only to find another one behind it.
 
-| Camera/object-overlay experiment | Early SOS guardian prototype |
-|:--:|:--:|
-| <img src="robot-evolution/09-camera-object-overlay.jpg" width="270" alt="Camera/object overlay test"/> | <img src="robot-evolution/10-early-sos-guardian.jpg" width="270" alt="Early SOS guardian dashboard"/> |
+The screenshots below are from those days. I kept them because they show the part of development that a finished product usually hides.
 
-The overlay capture includes test/mock detections; it does not demonstrate validated real-world threat detection. [Browse all ten original screenshots](robot-evolution/) · [View the illustrated evolution concept](assets/pinaxa-robot-face-evolution-illustrated.svg).
+## May 2026 — PINAXA was not a simple SOS app.
 
-### May 30, 2026 · The guardian had different faces
+I wanted to build an **AI-powered security guardian** that could use the phone's camera and microphone, respond to instructions, and help during an emergency. I didn't just sketch that idea. I built versions of it in Java, compiled Android applications, and tested interfaces on my phone.
 
-I tested an **ATTENTION** expression with yellow eyes and a separate listening/status interface before simplifying the later product. These are my original Android captures, not recreated marketing illustrations.
+The original project became much larger than today's PINAXA. There were camera previews, face/object overlays, voice-command screens, emergency-state messages, local logs, a robot character with changing expressions, and experiments with ML Kit and on-device models.
 
-<p align="center">
-  <img src="assets/pinaxa-guardian-attention-may30.jpg" width="42%" alt="Actual May 30 PINAXA Guardian yellow-eye ATTENTION expression" />
-  <img src="assets/pinaxa-guardian-listening-may30.jpg" width="42%" alt="Actual May 30 PINAXA Guardian screen showing Listening, Threat SAFE and command history" />
-</p>
+### May 19 — I hit the wall.
 
-*These are historic UI experiments, not independently validated autonomous-threat detection.*
+One of my build screenshots shows errors in `CameraHelper.java`: the project couldn't resolve ML Kit classes. Other captured builds show manifest theme problems and a failed `downloadThreatModel` task.
 
+To someone viewing only the finished app, that might be invisible. To me, those errors were the work. I had to understand why dependencies, resource names and Android build tasks disagreed with my code—while doing everything on the same phone.
 
-### What the actual PINAXA app shows
+**I didn't learn these things because a course said I should. I learned because the app wouldn't build until I dealt with them.**
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/geda21/PINAXA/main/assets/home.webp" alt="PINAXA actual panic and duress screen" width="28%" />
-  <img src="https://raw.githubusercontent.com/geda21/PINAXA/main/assets/event-timeline.webp" alt="PINAXA actual emergency timeline" width="28%" />
-  <img src="https://raw.githubusercontent.com/geda21/PINAXA/main/assets/evidence-lock.webp" alt="PINAXA actual evidence authentication screen" width="28%" />
-</p>
+### May 25 — the guardian had a camera and a control panel.
 
-**Engineering details:** Java, Android components, foreground services, camera/voice experimentation, local data, emergency state machines, device permissions.
+<img src="robot-evolution/09-camera-object-overlay.jpg" width="64%" alt="Original May PINAXA camera preview with object overlay and logs" />
 
-*Technical honesty: archived iterations include simulations and incomplete model assets. A running UI or test alert is not evidence of independently validated threat detection or guaranteed emergency dispatch.*
+An old version displayed a camera feed, highlighted boxes, guardian status, an SOS control and scrolling diagnostic logs. The screenshot even shows a `weapon_knife_mock` test trigger.
+
+That detail matters: **some detections were simulated tests**, not a validated model recognizing real threats. My goal was to develop and connect the pieces of the system. Later, I would understand why simply making an alert appear was very different from making a reliable safety product.
+
+### May 25–30 — I tried to make the guardian feel alive.
+
+I kept drawing and rebuilding the robot's face. It wasn't only decoration. I wanted someone looking at the screen to understand whether the guardian was listening, paying attention, waiting for a reply or handling an emergency.
+
+I experimented with **eight visible face or interaction states**. These are my original Android screenshots—not AI-generated marketing mockups.
+
+<table>
+<tr>
+<td width="25%" align="center"><img src="robot-evolution/01-neon-cyan-eyes.jpg" width="180" alt="Cyan scanner eyes"/><br/><sub>01 — Glowing cyan eyes</sub></td>
+<td width="25%" align="center"><img src="robot-evolution/02-purple-minimal-robot.jpg" width="180" alt="Purple minimal robot"/><br/><sub>02 — Minimal purple face</sub></td>
+<td width="25%" align="center"><img src="robot-evolution/03-blue-friendly-robot.jpg" width="180" alt="Friendly blue-eyed robot"/><br/><sub>03 — Friendly blue eyes</sub></td>
+<td width="25%" align="center"><img src="robot-evolution/04-blue-alert-robot.jpg" width="180" alt="Blue alert robot"/><br/><sub>04 — Stronger expression</sub></td>
+</tr>
+<tr>
+<td align="center"><img src="robot-evolution/05-emergency-activated.jpg" width="180" alt="Emergency activated"/><br/><sub>05 — Emergency activated</sub></td>
+<td align="center"><img src="robot-evolution/06-safety-checkin.jpg" width="180" alt="Safety check-in"/><br/><sub>06 — Waiting for a reply</sub></td>
+<td align="center"><img src="robot-evolution/07-yellow-attention.jpg" width="180" alt="Yellow attention face"/><br/><sub>07 — Attention</sub></td>
+<td align="center"><img src="robot-evolution/08-yellow-listening.jpg" width="180" alt="Yellow listening face"/><br/><sub>08 — Listening and status</sub></td>
+</tr>
+</table>
+
+The **emergency version** displayed “EMERGENCY ACTIVATED!” after a help command. Another version showed a follow-up prompt asking the user to say “I'm okay” if safe. The yellow-eyed version showed an **ATTENTION** expression, then a screen with **Listening**, **Threat: SAFE** and command history.
+
+There were also simpler early prototypes:
+
+<img src="robot-evolution/10-early-sos-guardian.jpg" width="45%" alt="Earlier PINAX Guardian screen with camera, SOS and contact controls" />
+
+The different faces weren't eight separate products. They were **eight visible experiments inside a long series of PINAXA rebuilds**.
+
+### The original AI models — and the versions I lost
+
+I worked on local AI model integration and remember tests functioning during development. I also deleted some local model files and lost track of a number of earlier versions. Several source ZIPs survive, but not every build or model from that period.
+
+The remaining source records prove substantial Android implementation: camera/voice components, services, interface code and emergency workflows. They also contain incomplete or mock model paths in some revisions. I won't describe the missing models as independently verified today. **Losing an old file doesn't erase the work, but it does limit what I can demonstrate now.**
+
+### The important decision: I made PINAXA smaller.
+
+After building and rebuilding the ambitious guardian, I asked a harder question: *what could I make understandable and more dependable for a person who needs help?*
+
+That led to the **current PINAXA**: a clearer personal-safety tool with a visible panic button, configurable shake-based duress protection, emergency contacts, safety timer, event timeline and password-gated evidence area.
+
+[<img src="https://raw.githubusercontent.com/geda21/PINAXA/main/assets/pinaxa-hero.png" width="100%" alt="Current PINAXA Android product: real panic, timeline and evidence screens" />](https://github.com/geda21/PINAXA)
+
+It was not a case of failing to build the big idea and settling for a small one. **I built many versions of the big idea, then made a deliberate engineering decision to narrow the product.** Fewer moving parts made the safety workflows easier to understand, test and improve.
+
+[**Read the deeper PINAXA development archive →**](https://github.com/geda21/PINAXA/blob/main/EVOLUTION.md)
+
+*Safety note: the older camera overlays include simulated alerts. The surviving images and code do not prove certified threat recognition or guaranteed emergency response. Any safety feature needs real-world testing before reliance.*
 
 ---
 
-## Chapter 02 · NONOX — from experiments to a Google Play product
+## What came after those experiments?
 
-An app designed to help people control smartphone distractions. **NONOX is published on Google Play**, and it was developed through a phone-only Android workflow.
+### NONOX — a focus app that reached Google Play
 
-This is the project where my experience with system-level Android behavior became a product: app blocking, strict phone-lock sessions, Task Force focus restrictions, session control and statistics. I worked with accessibility behavior, device administration, boot/restart scenarios and responsive overlays.
+I took the persistence I learned from those early Android experiments into a new problem: **how can someone make their own phone less distracting?**
+
+NONOX became my native Android focus app. I built app blocking, phone-lock sessions, a Task Force focus mode, and statistics. It meant dealing with Android accessibility services, device-admin behavior and cases where background processes or restarts could interrupt the experience.
+
+[<img src="https://raw.githubusercontent.com/geda21/nonox-android/main/assets/nonox-real-ui-showcase.png" width="100%" alt="NONOX product gallery" />](https://github.com/geda21/nonox-android)
+
+The difference was that **NONOX became an actual published Google Play app**. I could point to a real listing, not only a phone gallery.
+
+**[Google Play](https://play.google.com/store/apps/details?id=com.nonox.app)** · **[Technical project](https://github.com/geda21/nonox-android)**
+
+My smartphone-only development story was later covered in a [SaaS Hive founder interview](https://blog.saashive.com/post/coding-420-hours-on-a-6-inch-phone-in-a-room-with-flickering-electricity-to-build-a-focus-app). NONOX also placed **third among 52 founders** in SaaS Hive's [July 2026 Launch Sprint](https://saashive.com/monthly-launch-sprint/past).
+
+### AgentBridge — I also tried to make a phone follow instructions
+
+In September, I was experimenting with **AgentBridge**, an Android agent interface for multi-step tasks.
+
+One preserved screen shows the agent attempting to navigate Fiverr, read gig statistics and record each action. Another displays a task-complete report referencing **16 impressions**. Those are the figures recorded in the test UI, not independently verified performance data.
+
+The technical challenge was different from PINAXA and NONOX: following a sequence, noticing a changed screen, reporting what happened and handling the next step.
+
+### JLab — I needed a workspace for all this work
+
+As projects accumulated, I needed somewhere to keep notes, tasks, plans and files together.
+
+I built **JLab**, a private Android workspace with projects, notes, calendars, local files and productivity insights.
+
+[<img src="https://raw.githubusercontent.com/geda21/Jlab/main/assets/jlab-android-showcase.png" width="100%" alt="JLab actual app UI gallery" />](https://github.com/geda21/Jlab)
+
+This project took me into **Kotlin, Jetpack Compose and local-first app design**. Unlike PINAXA, the problem wasn't an emergency. It was the everyday challenge of organizing my own work.
+
+### JABAA Shop — learning to build a business around software
+
+I also built **[JABAA Shop](https://jabashop.store)**, an ebook and learning-course marketplace. That meant more than making a homepage: I worked with listings, accounts, Supabase data, order and receipt flows, local ETB purchasing and links to international checkout.
+
+**[Live store](https://jabashop.store)** · **[Repository](https://github.com/geda21/jabashop)**
+
+### EthioDate — accounts, discovery, messaging and premium workflows
+
+**[EthioDate](https://ethiodate.base44.app/)** explored a different product category: public profile discovery, likes, matches, chat, authentication and premium access. It taught me about product flows that involve multiple users and more sensitive personal data.
+
+**[Product showcase](https://github.com/geda21/Ethiodate)**
+
+---
+
+## What I'm actually offering clients
+
+I'm not asking clients to hire me because I learned the names of programming languages. I want them to see **how I approach problems**: I build the thing, run it, find what breaks, investigate why, then revise it until it is useful.
+
+| I can work on | Relevant evidence |
+|---|---|
+| **Native Android applications** | NONOX on Google Play; PINAXA prototypes and current safety interface |
+| **Android platform features** | Accessibility, device admin, camera/voice integration experiments, lifecycle and local data |
+| **Mobile-first web applications** | JABAA Shop, EthioDate |
+| **Productivity systems** | JLab with Kotlin, Compose and offline-first architecture |
+| **Workflow automation** | AgentBridge Android agent experiments |
+
+I use **Java, Kotlin, Android SDK, Jetpack Compose, HTML, CSS, JavaScript, Supabase, GitHub and Netlify**. My projects vary in maturity: some are released, some are private products, and some are clearly labeled experiments.
+
+### The line I want my work to speak for itself
+
+> **I learned software engineering by building software. Not everything worked on the first try. That's why the finished products matter.**
+
+---
 
 <div align="center">
 
-[<img src="https://raw.githubusercontent.com/geda21/nonox-android/main/assets/nonox-real-ui-showcase.png" alt="NONOX developer-supplied product showcase using its Android UI" width="100%" />](https://github.com/geda21/nonox-android)
+## Let's build something.
 
-**[Install on Google Play](https://play.google.com/store/apps/details?id=com.nonox.app)** · **[Explore real screenshots](https://github.com/geda21/nonox-android#inside-nonox--real-screenshots)**
+If you need an Android app, responsive website or custom tool, I can talk through the real implementation—not just the appearance.
 
-</div>
+[![Discuss a project](https://img.shields.io/badge/Discuss_a_Project-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/geda-taye-a60b403ba)
 
-### The recognition matters — but the work came first
+**[View my visual portfolio](index.html)** · **[NONOX on Google Play](https://play.google.com/store/apps/details?id=com.nonox.app)** · **[PINAXA story](https://github.com/geda21/PINAXA/blob/main/EVOLUTION.md)**
 
-**SaaS Hive's July 2026 Launch Sprint** listed NONOX **3rd among 52 participating founders**, and SaaS Hive published a [founder spotlight](https://blog.saashive.com/post/coding-420-hours-on-a-6-inch-phone-in-a-room-with-flickering-electricity-to-build-a-focus-app) on the smartphone development journey.
-
-[![NONOX recognition at SaaS Hive](https://raw.githubusercontent.com/geda21/nonox-android/main/assets/nonox-saashive-launch-sprint-recognition.svg)](https://saashive.com/monthly-launch-sprint/past)
-
-**Evidence:** [Launch Sprint archive](https://saashive.com/monthly-launch-sprint/past) · [Founder interview](https://blog.saashive.com/post/coding-420-hours-on-a-6-inch-phone-in-a-room-with-flickering-electricity-to-build-a-focus-app)
-
----
-
-## Chapter 03 · AgentBridge — teaching the phone to carry out a task
-
-I also experimented with instruction-driven Android agents, trying to make a mobile assistant navigate applications and report task progress instead of only answering questions.
-
-One of my archived **September 2026** test screens shows AgentBridge attempting to open Fiverr, inspect gig statistics, track a sequence of actions, and return an end-of-task report.
-
-This is an **engineering experiment**, not a claim that the agent achieved perfect autonomous reliability. The logged steps and task-complete status illustrate what the interface displayed; third-party statistics and execution correctness require separate verification.
-
-**Skills explored:** screen-state observation, app navigation, action logging, workflow execution, session timeouts and user-facing progress reports.
-
----
-
-## Chapter 04 · JLab — building the workspace I needed myself
-
-When you build several products from one phone, you need to organize projects, tasks, notes, resources, files and plans in the same place.
-
-**JLab** is a native Android personal workspace using **Kotlin, Jetpack Compose, Room and local-first storage**. It includes project workspaces, task tracking, notes, file storage, planning, calendar views, productivity insights and customization.
-
-<div align="center">
-
-[<img src="https://raw.githubusercontent.com/geda21/Jlab/main/assets/jlab-android-showcase.png" alt="JLab showcase composed from actual Android app captures" width="100%" />](https://github.com/geda21/Jlab)
-
-[**Explore JLab's repository and source →**](https://github.com/geda21/Jlab)
-
-</div>
-
----
-
-## Chapter 05 · Businesses and connected experiences
-
-**[JABAA Shop](https://jabashop.store)** — a real digital marketplace for ebooks and courses. Built with web technologies and Supabase, with customer journeys, purchase flows, local ETB options and international purchase links. [Repository](https://github.com/geda21/jabashop).
-
-**[EthioDate](https://ethiodate.base44.app/)** — a mobile-first dating and social discovery platform, exploring public profile discovery, likes, matching, messaging, authentication and premium-access workflows. [Product showcase](https://github.com/geda21/Ethiodate).
-
-These projects moved my work beyond Android utilities into **commerce, data-backed web applications and consumer-facing product design**.
-
----
-
-## What I actually work with
-
-| Native Android | Web & backend | Workflow |
-|---|---|---|
-| Java, Kotlin, Android SDK | HTML, CSS, JavaScript | Smartphone-first development |
-| Accessibility & Device Admin | Supabase & SQL concepts | Real-device debugging |
-| Camera, voice & sensors | Authentication and marketplace flows | GitHub & release iteration |
-| Jetpack Compose, Room/SQLite | Netlify, responsive interfaces | Documentation & product testing |
-
-### What I can build for clients
-
-**Android applications** · **Business websites** · **Customer-facing platforms** · **Custom productivity tools** · **Mobile-first UI engineering**
-
-I'm self-taught, but not theory-only. My public work includes **source code where appropriate, real screenshots, production links, historic experiments and honest limitations**.
-
-<div align="center">
-
-### Want to work together?
-
-[![Connect on LinkedIn](https://img.shields.io/badge/Discuss_a_Project-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/geda-taye-a60b403ba)
-[![GitHub](https://img.shields.io/badge/See_the_Code-GitHub-24292F?style=for-the-badge&logo=github)](https://github.com/geda21)
-
-**Built on a phone. Tested in the real world. Still building.**
+*Geda Taye · Ethiopia · Built and tested from a smartphone.*
 
 </div>
