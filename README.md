@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Geda Taye
 
-🚀 **22-year-old self-taught developer from Ethiopia 🇪🇹**
+🚀 **21-year-old self-taught developer from Ethiopia 🇪🇹**
 
 I build products that solve real problems — starting with my own.
 
