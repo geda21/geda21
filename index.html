@@ -78,6 +78,43 @@ footer{padding:65px 0 90px;background:radial-gradient(ellipse 600px 280px at 25%
 @media(max-width:740px){.wrap{padding:0 18px}.navbar{display:block;padding-top:11px;padding-bottom:8px;min-height:unset}.navbar .logo{margin-bottom:5px}.navbar nav{overflow-x:auto;white-space:nowrap;gap:16px;scrollbar-width:none;padding:7px 0}.navbar nav::-webkit-scrollbar{display:none}.navbar nav a{font-size:13px;flex:0 0 auto}.hero{padding:52px 0}.hero-grid{grid-template-columns:1fr}.hero h1{font-size:clamp(2.7rem,10vw,4.4rem)}.hero-image{min-height:380px;max-width:440px;margin:0 auto;width:100%}.frame-stack{max-width:300px}.frame-main{max-width:265px}.quickfacts{grid-template-columns:1fr 1fr;gap:9px}.chapter{padding:68px 0}.chapter-head{display:block}.chapter-split,.project,.project.two-up,.footer-grid{grid-template-columns:1fr}.chapter-split.reverse>.image-col{order:0}.project:nth-child(even) .project-art{order:0}.project{padding:19px}.role-grid,.lab-grid,.paired{grid-template-columns:1fr 1fr}.process{grid-template-columns:1fr 1fr}.evidence{grid-template-columns:120px 1fr}.project-art .art-panel{transform:none}}
 @media(max-width:480px){.wrap{padding:0 15px}.hero h1{font-size:clamp(2.5rem,12vw,3.6rem)}.hero-image{min-height:350px}.hero .lead{font-size:17px}.floating{right:0;padding:10px;font-size:11px}.quickfacts{grid-template-columns:1fr}.fact{padding:13px 17px}.chapter{padding:56px 0}.robot-grid{gap:9px}.robot-card{padding:7px 7px 12px;border-radius:13px}.robot-card .shot{border-width:2px;border-radius:10px}.robot-card h4{font-size:13px}.robot-card p{font-size:11px}.role-grid,.lab-grid{grid-template-columns:1fr}.paired{grid-template-columns:1fr}.process{grid-template-columns:1fr 1fr;gap:10px}.process .glass{padding:14px}.evidence{grid-template-columns:1fr}.evidence img{max-height:360px}.quote{padding-left:15px}.actions .button{width:100%}.phone-scene{padding:15px}.callout,.lab{padding:20px}.footer-grid{gap:15px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+
+/* Mobile QA repair: default figure margins caused narrow PINAXA cards */
+.robot-grid{min-width:0;align-items:stretch}
+.robot-card{margin:0!important;width:100%;min-width:0;max-width:100%;display:flex;flex-direction:column;overflow:hidden}
+.robot-card .shot{width:100%;min-width:0;aspect-ratio:9/12}
+.robot-card img{width:100%;height:100%;object-fit:contain;object-position:center;min-width:0}
+.robot-card p{overflow-wrap:break-word}
+.robot-card .order{letter-spacing:.06em;overflow-wrap:anywhere}
+.moment,.chapter,.wrap,.story,.chapter-split>*{min-width:0}
+@media(max-width:740px){
+header{position:relative}
+.navbar{display:flex;flex-direction:row;align-items:center;justify-content:space-between;min-height:66px;padding-top:7px;padding-bottom:7px}
+.navbar .logo{margin:0;font-size:16px;gap:7px}
+.navbar .logo small{font-size:10px}
+.navbar nav{width:auto;max-width:44vw;display:flex;gap:12px;overflow-x:auto;margin-left:auto;padding:0;align-items:center}
+.navbar nav a{font-size:12px;min-height:44px}
+.hero{padding-top:40px}
+.robot-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.robot-card{padding:10px 10px 14px}
+.robot-card .shot{aspect-ratio:9/12}
+.robot-card h4{font-size:15px;line-height:1.35}
+.robot-card p{font-size:12px;line-height:1.6}
+}
+@media(max-width:480px){
+.navbar nav{max-width:45vw}
+.hero h1{font-size:clamp(2.35rem,10vw,3.15rem);letter-spacing:-.06em;line-height:1.1}
+.hero-text .lead{font-size:16px;line-height:1.65}
+.hero-text p{font-size:14px;line-height:1.7}
+.robot-grid{gap:10px}
+.robot-card{padding:7px 7px 12px}
+.robot-card h4{font-size:14px}
+.robot-card p{font-size:11.5px}
+}
+@media(max-width:350px){
+.robot-grid{grid-template-columns:1fr}
+.navbar .logo small{display:none}
+}
 </style>
 </head>
 <body>
@@ -85,9 +122,9 @@ footer{padding:65px 0 90px;background:radial-gradient(ellipse 600px 280px at 25%
 <main id="top">
 <section class="hero"><div class="wrap hero-grid">
 <div class="hero-text"><span class="eyebrow">Harar, Ethiopia · One phone · 2026</span>
-<h1><span class="line">One person.</span><span class="line accent">Many roles.</span><span class="line">Real work.</span></h1>
-<p class="lead">I’m Geda Taye. I taught myself software engineering while building Android apps, studying computer science, running a digital shop, creating content, helping customers, and trying to turn ideas into working products—<strong>all primarily from my smartphone.</strong></p>
-<p>Not a story about being naturally gifted. A story about the real difficulty of building something before you have the equipment, money or guidance you wish you had.</p>
+<h1><span class="line">I had a phone.</span><span class="line accent">I kept building.</span><span class="line">I refused to stop.</span></h1>
+<p class="lead">I’m Geda Taye, a self-taught builder from Ethiopia. I started with one phone, an idea I didn’t yet know how to build, and more failed attempts than I can count. I kept learning, testing, designing, selling and rebuilding until some of those ideas became real products. <strong>That phone was my workshop—not the limit of what I wanted to create.</strong></p>
+<p>I’m not one job title. I work across software, AI experiments, websites, design, digital products, content and business—and I’m still learning new skills. This is what those years of practical work actually looked like.</p>
 <div class="actions"><a class="button main" href="#story">Start the real story ↓</a><a class="button" href="#work">See what I built ↗</a></div>
 </div>
 <div class="hero-image"><div class="hero-halo"></div><div class="frame-stack"></div><div class="frame-stack second"></div><div class="frame-main"><img src="assets/geda-founder-portrait.jpg" alt="Original portrait of Geda Taye" fetchpriority="high"></div><div class="floating"><span class="green-dot"></span><strong>Founder · Developer · Creator</strong><br><span class="tiny">Real projects, not just ideas</span></div></div></div>
@@ -169,6 +206,6 @@ footer{padding:65px 0 90px;background:radial-gradient(ellipse 600px 280px at 25%
 <div class="glass" style="padding:28px"><span class="eyebrow">The mission across my products</span><h3>Give people more control.</h3><p><strong>NONOX</strong> → more control over attention and time.</p><p><strong>PINAXA</strong> → more control in difficult safety moments.</p><p><strong>JABAA Shop</strong> → more access to education and opportunity.</p><hr class="soft-divider"><p>That's the connection between products that appear unrelated from the outside. It's also why I want to create opportunities for other learners who start with limited resources.</p></div></div>
 </div></section>
 </main>
-<footer id="contact"><div class="wrap footer-grid"><div><span class="eyebrow">06 / The next chapter</span><h2>Need someone who can<br><span class="sky">build, test and explain?</span></h2><p class="lead">I’m open to Android and web development work, practical collaborations and conversations with builders who value real implementation—not only polished mockups.</p><div class="actions"><a class="button green" href="https://www.linkedin.com/in/geda-taye-a60b403ba">Discuss a project ↗</a><a class="button" href="https://github.com/geda21">See my GitHub ↗</a></div><p class="proof">A source-grounded personal story based on “My 2026 Journey — Geda Taye” and dated project screenshots. Historic interface demonstrations and simulated tests are not presented as safety certifications. This site preserves the distinction between shipped products and experiments.</p></div><div class="glass contact"><img src="assets/geda-founder-portrait.jpg" alt="Geda Taye portrait" style="width:96px;height:96px;object-fit:cover;border-radius:50%;border:2px solid #55caff"><h3 style="margin-top:13px">Geda Taye</h3><p>Harar, Ethiopia · Self-taught developer, founder and creator</p><a href="mailto:jabataye@gmail.com">✉ jabataye@gmail.com</a><a href="https://github.com/geda21">⌘ github.com/geda21</a><a href="https://www.linkedin.com/in/geda-taye-a60b403ba">↗ LinkedIn profile</a><a href="https://jabashop.store">◈ jabashop.store</a></div></div></footer>
+<footer id="contact"><div class="wrap footer-grid"><div><span class="eyebrow">06 / The next chapter</span><h2>Have something difficult in mind?<br><span class="sky">I like making ideas real.</span></h2><p class="lead">I take on practical digital work across software development, websites, automation, design and digital-product creation. If your project needs a mix of skills, let’s discuss the real problem, what I can deliver and what needs deeper specialist support. I’d rather be clear about scope than promise everything.</p><div class="actions"><a class="button green" href="https://www.linkedin.com/in/geda-taye-a60b403ba">Discuss a project ↗</a><a class="button" href="https://github.com/geda21">See my GitHub ↗</a></div><p class="proof">A source-grounded personal story based on “My 2026 Journey — Geda Taye” and dated project screenshots. Historic interface demonstrations and simulated tests are not presented as safety certifications. This site preserves the distinction between shipped products and experiments.</p></div><div class="glass contact"><img src="assets/geda-founder-portrait.jpg" alt="Geda Taye portrait" style="width:96px;height:96px;object-fit:cover;border-radius:50%;border:2px solid #55caff"><h3 style="margin-top:13px">Geda Taye</h3><p>Harar, Ethiopia · Self-taught developer, founder and creator</p><a href="mailto:jabataye@gmail.com">✉ jabataye@gmail.com</a><a href="https://github.com/geda21">⌘ github.com/geda21</a><a href="https://www.linkedin.com/in/geda-taye-a60b403ba">↗ LinkedIn profile</a><a href="https://jabashop.store">◈ jabashop.store</a></div></div></footer>
 </body>
 </html>
