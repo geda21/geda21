@@ -66,13 +66,19 @@ The older work matters because **I implemented and tested the larger experiment 
 
 **[Read the original PINAXA engineering journey →](https://github.com/geda21/PINAXA/blob/main/EVOLUTION.md)**
 
-### The full PINAXA robot-face evolution — eight versions
+### PINAXA Guardian — eight actual robot versions
 
-<img src="assets/pinaxa-robot-face-evolution-illustrated.svg" width="100%" alt="Illustrated evolution of eight experimental PINAXA Guardian face states — cyan scanner eyes, purple minimal robot, friendly blue, intense blue, emergency, safety check-in, yellow attention, and yellow listening" />
+These are **original historical Android screenshots**, not illustrations. I experimented with different robot faces, emotional states, command interfaces and emergency behavior before simplifying PINAXA.
 
-The eight states above correspond to archived captures from **May 25–30, 2026**: (1) glowing cyan eyes, (2) minimal purple face, (3) friendly blue-eyed robot, (4) more intense blue-eyed expression, (5) emergency-activated state, (6) safety confirmation attempt, (7) yellow-eyed attention state and (8) yellow-eyed listening/status interface.
+<table><tr><td align="center" width="25%"><img src="robot-evolution/01-neon-cyan-eyes.jpg" width="175" alt="Glowing cyan scanner eyes original screenshot"/><br/><sub>01 · Glowing cyan scanner eyes</sub></td><td align="center" width="25%"><img src="robot-evolution/02-purple-minimal-robot.jpg" width="175" alt="Minimal purple face original screenshot"/><br/><sub>02 · Minimal purple face</sub></td><td align="center" width="25%"><img src="robot-evolution/03-blue-friendly-robot.jpg" width="175" alt="Friendly blue-eyed robot original screenshot"/><br/><sub>03 · Friendly blue-eyed robot</sub></td><td align="center" width="25%"><img src="robot-evolution/04-blue-alert-robot.jpg" width="175" alt="Intense blue-eyed expression original screenshot"/><br/><sub>04 · Intense blue-eyed expression</sub></td></tr><tr><td align="center" width="25%"><img src="robot-evolution/05-emergency-activated.jpg" width="175" alt="Emergency activated original screenshot"/><br/><sub>05 · Emergency activated</sub></td><td align="center" width="25%"><img src="robot-evolution/06-safety-checkin.jpg" width="175" alt="Safety check-in prompt original screenshot"/><br/><sub>06 · Safety check-in prompt</sub></td><td align="center" width="25%"><img src="robot-evolution/07-yellow-attention.jpg" width="175" alt="Yellow attention state original screenshot"/><br/><sub>07 · Yellow attention state</sub></td><td align="center" width="25%"><img src="robot-evolution/08-yellow-listening.jpg" width="175" alt="Yellow listening state original screenshot"/><br/><sub>08 · Yellow listening state</sub></td></tr></table>
 
-**Evidence policy:** This infographic contains *illustrated redrawings* of the original faces. It is not a substitute for the archived Android screenshots. The original Android JPG screenshots are prepared separately for upload to `assets/robot-evolution/`.
+**More original engineering evidence:**
+
+| Camera/object-overlay experiment | Early SOS guardian prototype |
+|:--:|:--:|
+| <img src="robot-evolution/09-camera-object-overlay.jpg" width="270" alt="Camera/object overlay test"/> | <img src="robot-evolution/10-early-sos-guardian.jpg" width="270" alt="Early SOS guardian dashboard"/> |
+
+The overlay capture includes test/mock detections; it does not demonstrate validated real-world threat detection. [Browse all ten original screenshots](robot-evolution/) · [View the illustrated evolution concept](assets/pinaxa-robot-face-evolution-illustrated.svg).
 
 ### May 30, 2026 · The guardian had different faces
 
