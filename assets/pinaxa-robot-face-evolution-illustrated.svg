@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1030" viewBox="0 0 1440 1030" role="img" aria-labelledby="title desc">
+<title id="title">PINAXA Guardian robot face evolution — May 2026</title><desc id="desc">Eight editorial redrawings based on the developer's archived May 2026 PINAXA Android screen captures. Not actual in-app screenshots.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080c13"/><stop offset="1" stop-color="#121528"/></linearGradient><radialGradient id="cyan"><stop stop-color="#a3f8ff"/><stop offset=".65" stop-color="#46cee6"/><stop offset="1" stop-color="#095c72"/></radialGradient><radialGradient id="amber"><stop stop-color="#ffe55e"/><stop offset="1" stop-color="#bca63e"/></radialGradient></defs>
+<rect width="1440" height="1030" rx="30" fill="url(#bg)"/>
+<g font-family="Arial,Helvetica,sans-serif"><text x="60" y="75" fill="#6fecfa" font-size="20" font-weight="bold" letter-spacing="4">MAY 2026 · REAL PROJECT HISTORY</text><text x="60" y="135" fill="#fff" font-size="53" font-weight="bold">PINAXA — Eight Guardian Faces</text><text x="60" y="173" fill="#b1c0d8" font-size="21">Different visual states and identities from the same Android development journey</text></g>
+<g stroke="#263247" stroke-width="2" fill="#101826">
+<rect x="46" y="212" width="326" height="356" rx="24"/><rect x="386" y="212" width="326" height="356" rx="24"/><rect x="726" y="212" width="326" height="356" rx="24"/><rect x="1066" y="212" width="326" height="356" rx="24"/>
+<rect x="46" y="583" width="326" height="356" rx="24"/><rect x="386" y="583" width="326" height="356" rx="24"/><rect x="726" y="583" width="326" height="356" rx="24"/><rect x="1066" y="583" width="326" height="356" rx="24"/>
+</g>
+<g>
+<!-- cyan two glowing scanner eyes -->
+<ellipse cx="147" cy="357" rx="68" ry="87" fill="url(#cyan)"/><ellipse cx="269" cy="357" rx="68" ry="87" fill="url(#cyan)"/><ellipse cx="147" cy="357" rx="75" ry="94" fill="none" stroke="#69edf7" opacity=".35"/><ellipse cx="269" cy="357" rx="75" ry="94" fill="none" stroke="#69edf7" opacity=".35"/>
+<!-- purple square -->
+<rect x="455" y="264" width="190" height="194" rx="56" fill="#0a0b13" stroke="#2d3045" stroke-width="5"/><path d="M481 332L550 314L536 362H500Z M568 314L638 332L619 362H582Z" fill="#bd76fb"/><circle cx="521" cy="338" r="15" fill="#863eea"/><circle cx="596" cy="338" r="15" fill="#863eea"/><circle cx="550" cy="407" r="12" fill="none" stroke="#fff" stroke-width="6"/>
+<!-- blue friendly -->
+<ellipse cx="889" cy="350" rx="127" ry="144" fill="#25262a" stroke="#52545b" stroke-width="5"/><path d="M815 319L848 309M932 309L968 319" stroke="#18233c" stroke-width="14"/><ellipse cx="837" cy="346" rx="38" ry="46" fill="#2397ed"/><ellipse cx="937" cy="346" rx="38" ry="46" fill="#2397ed"/><ellipse cx="838" cy="347" rx="22" ry="26"/><ellipse cx="938" cy="347" rx="22" ry="26"/><path d="M844 415Q890 468 934 415" fill="none" stroke="#27334d" stroke-width="9"/>
+<!-- blue intense -->
+<ellipse cx="1229" cy="354" rx="128" ry="147" fill="#444447" stroke="#55545d" stroke-width="5"/><path d="M1159 298L1210 333 M1299 298L1248 333" stroke="#18243b" stroke-width="13"/><ellipse cx="1184" cy="351" rx="37" ry="42" fill="#2397ed"/><ellipse cx="1272" cy="351" rx="37" ry="42" fill="#2397ed"/><ellipse cx="1188" cy="351" rx="21" ry="24"/><ellipse cx="1269" cy="351" rx="21" ry="24"/><path d="M1165 419Q1229 424 1292 419L1286 468Q1230 509 1172 463Z" fill="#323437" stroke="#161c25" stroke-width="3"/>
+<!-- emergency -->
+<ellipse cx="209" cy="735" rx="125" ry="125" fill="#4c4d50"/><path d="M123 668L176 707M292 668L239 707" stroke="#18233b" stroke-width="12"/><ellipse cx="170" cy="745" rx="40" ry="47" fill="#2599ed"/><ellipse cx="249" cy="745" rx="40" ry="47" fill="#2599ed"/><circle cx="171" cy="744" r="23"/><circle cx="248" cy="744" r="23"/><rect x="70" y="829" width="280" height="44" rx="8" fill="#130f13" opacity=".93"/><circle cx="93" cy="851" r="11" fill="#ff3b61"/><text x="112" y="858" fill="#35eda6" font-family="monospace" font-size="19" font-weight="bold">EMERGENCY!</text>
+<!-- waiting -->
+<ellipse cx="549" cy="735" rx="125" ry="125" fill="#45474a"/><path d="M464 667L521 710M633 667L576 710" stroke="#1b2944" stroke-width="12"/><ellipse cx="512" cy="745" rx="38" ry="45" fill="#289bec"/><ellipse cx="590" cy="745" rx="38" ry="45" fill="#289bec"/><circle cx="512" cy="745" r="21"/><circle cx="590" cy="745" r="21"/><rect x="406" y="831" width="286" height="56" rx="8" fill="#140d17" opacity=".95"/><text x="426" y="851" fill="#42e5a3" font-family="monospace" font-size="15">ATTEMPT 5: SAY</text><text x="430" y="872" fill="#42e5a3" font-family="monospace" font-size="15">'I'M OKAY'</text>
+<!-- yellow attention -->
+<circle cx="889" cy="760" r="125" fill="#2a293f" stroke="#4e4524" stroke-width="15"/><circle cx="845" cy="730" r="38" fill="url(#amber)"/><circle cx="935" cy="730" r="38" fill="url(#amber)"/><circle cx="845" cy="729" r="19"/><circle cx="935" cy="729" r="19"/><path d="M818 680H858M918 680H958" stroke="#d5d6d2" stroke-width="10" stroke-linecap="round"/><rect x="847" y="798" width="85" height="17" rx="8" fill="#111"/><text x="824" y="906" font-family="Arial" font-size="22" font-weight="bold" fill="#f7d84a">ATTENTION</text>
+<!-- yellow listening -->
+<circle cx="1229" cy="744" r="121" fill="#2b2b43" stroke="#51472c" stroke-width="13"/><circle cx="1184" cy="718" r="37" fill="url(#amber)"/><circle cx="1274" cy="718" r="37" fill="url(#amber)"/><circle cx="1184" cy="718" r="19"/><circle cx="1274" cy="718" r="19"/><path d="M1158 664H1196M1254 664H1292" stroke="#dedbd0" stroke-width="10" stroke-linecap="round"/><rect x="1183" y="790" width="88" height="15" rx="6" fill="#111"/><text x="1185" y="906" font-family="Arial" font-size="23" font-weight="bold" fill="#45d5bd">LISTENING</text>
+</g>
+<g font-family="Arial,Helvetica,sans-serif" fill="#ecf5ff" font-weight="bold" font-size="20" text-anchor="middle">
+<text x="209" y="527">01 · Cyan scanner eyes</text><text x="549" y="527">02 · Purple minimal</text><text x="889" y="527">03 · Friendly blue</text><text x="1229" y="527">04 · Intense blue</text>
+<text x="209" y="927">05 · Emergency state</text><text x="549" y="927">06 · Safety check-in</text><text x="889" y="927">07 · Yellow attention</text><text x="1229" y="927">08 · Yellow listening</text>
+</g>
+<text x="50" y="990" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#9ba9bf">Illustrated redrawings based on authentic May 2026 screenshots — original image files are maintained separately.</text>
+</svg>
