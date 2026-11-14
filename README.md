@@ -7,6 +7,8 @@
 
 **No laptop. No development team. A smartphone, thousands of iterations, and working software.**
 
+**[Explore my visual story portfolio →](index.html)** · **[PINAXA evolution →](https://github.com/geda21/PINAXA/blob/main/EVOLUTION.md)**
+
 [![NONOX · Google Play](https://img.shields.io/badge/NONOX-Live_on_Google_Play-34A853?style=for-the-badge&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.nonox.app)
 [![JABAA Shop](https://img.shields.io/badge/JABAA-Shop_Live-167B5B?style=for-the-badge)](https://jabashop.store)
 [![LinkedIn](https://img.shields.io/badge/Let's_Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/geda-taye-a60b403ba)
